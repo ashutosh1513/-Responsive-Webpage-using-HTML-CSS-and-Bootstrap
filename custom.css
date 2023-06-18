@@ -1,0 +1,924 @@
+.overlay{
+
+    background-color: rgba(0, 0, 0, 0.5);
+padding-left: 0%;
+margin: 0%;
+
+
+}
+
+
+
+
+/* for desk  */
+
+@media screen and (min-width:992px) {
+    
+
+
+
+    #logos-img, #works-img,#gallery-img,#awesome-img {
+
+        background-size: cover !important;
+        
+       
+    }
+
+
+#navbar ul{
+    margin-right: 11rem !important;
+}
+
+
+    #top{
+
+    border-bottom: 12px solid black; 
+    border-left: 9px solid black;
+     border-top: 7px solid black; 
+     border-right: 6px solid black;
+      padding: 1.5rem;
+
+    }
+
+
+
+#header-content{
+
+  
+    padding: 14rem 0 14rem 0;
+    
+
+}
+
+#header p{
+
+    font-family: Ysabeau;
+font-size: 1.55rem;
+color: gainsboro;
+font-weight: 500 !important;
+}
+#header h1{
+    color: rgb(251, 248, 245);
+    font-weight: 400;
+    font-size: 2.8rem;
+}
+#header .btn{
+background-color:  rgb(19, 188, 249);
+padding: .8rem 2rem;
+    margin: 2rem auto;
+    font-weight: 500;
+    
+}
+
+#navbar-content{
+
+    margin-right: 7rem;
+
+}
+
+/* ********** header content *********** */
+#header-content-for-tab{
+    display:  none;
+}
+#header-content-for-mob{
+    display:  none;
+}
+
+/* ************ 24000 **************** */
+#content-24{
+    margin: 5rem;
+      
+}
+#content-24 h1{
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: Montserrat;
+    color: rgb(16, 15, 15);
+}
+#content-24 p{
+    margin-top: 1.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+#row-for-card{
+    margin: 5rem 0;
+}
+#row-for-card h5{
+    margin-bottom: 1rem;
+}
+#row-for-card p{
+    margin-top: 1rem;
+}
+
+/* *************** logos ******************* */
+#logos .row{
+
+    padding: 2.4rem 14rem;
+}
+
+
+
+/* ************** new look***************** */
+
+#new-look-bottom{
+
+    margin: 4rem 0;
+
+}
+#new-look-bottom i{
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+    color: rgb(24, 24, 255);
+}
+#new-look-bottom h5{
+    font-weight: 400;
+
+    
+}
+#new-look-bottom p{
+    margin-top: .8rem;
+    font-weight: 400;
+}
+#new-look-top{
+    margin-top: 5rem auto;
+
+}
+#new-look-top p{
+margin: 2rem 0 3rem 0;
+
+}
+
+/* ******************** works ******************* */
+#works-content{
+
+    padding: 5rem 0;
+   
+}
+#works{
+
+    margin: 1rem 0 4rem 0;
+
+}
+#works-content p{
+
+    font-family: Ysabeau;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    color: #fff;
+}
+
+#works-content h1{
+
+font-family: Montserrat;
+color: #fff;
+font-size: 3rem;
+
+}
+
+#works-img{
+
+    background-size:cover;
+}
+
+/* ************8 watches ************* */
+
+#btn-l-super{
+
+    font-size: 2rem; 
+    margin-left: -3rem;
+    padding: 0 .6rem;
+}
+#btn-r-super{
+    margin-right: -2rem;
+     padding: 0 .6rem;
+     font-size: 2rem; 
+}
+#btn-l-tons{
+    margin-left: -2rem; 
+    padding: 0 .6rem;
+    font-size: 2rem;
+}
+#btn-r-tons{
+
+    font-size: 2rem; 
+    margin-left: 2rem; 
+
+}
+#btn-l-parallax{
+
+    font-size: 2rem;
+
+}
+#btn-r-parallax{
+
+    font-size: 2rem; 
+    margin-left: 2rem;
+
+}
+
+
+#parallax-content, #tons, #supereasy{
+
+   padding: 10% 0;
+
+}
+#parallax-content h1, #tons h1, #supereasy h1{
+    font-family: Montserrat;
+    font-weight: 400;
+}
+#parallax-content p, #tons p, #supereasy p{
+
+    margin-top: 1rem;
+    font-weight: 400;
+    font-family: Montserrat;
+    word-spacing: .2rem;
+}
+#parallax-content .btn, #tons .btn, #supereasy .btn{
+    border: 2px solid blue;
+    color: blue;
+    margin-top: 1rem;
+    padding: .8rem 1.6rem;
+}
+
+#parallax-content small, #tons small, #supereasy small{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+#watches{
+    margin-top: 6rem;
+}
+
+#blank{
+
+    border-right: 3px solid black;
+
+}
+
+footer{
+    border-bottom: 5px solid black;
+}
+
+#gallery-img .container{
+
+    padding: 3.7rem 0;
+
+}
+#awesome-img .container{
+
+    padding: 3.7rem 0;
+
+}
+
+}
+
+
+
+
+/* ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((TAB)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) */
+
+/* for tab */
+
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+
+
+    #gallery-img .container{
+
+        padding: 5rem 0;
+    
+    }
+    #awesome-img .container{
+    
+        padding: 6rem 0;
+    
+    }
+
+
+
+
+
+    #logos-img, #works-img,#gallery-img,#awesome-img {
+
+        background-size: auto !important;
+        
+    }
+#logos .container{
+
+    padding: 3rem 0;
+}
+
+
+#works #works-content{
+
+
+    padding: 5rem 0;
+    
+}
+
+    #navbar ul{
+        margin-right: 0 !important;
+    }
+
+
+
+
+
+    #top{
+        border-bottom: 7px solid black;
+         border-left: 9px solid black;
+          border-top: 12px solid black;
+           border-right: 6px solid black;
+            padding: 1.5rem;
+    }
+
+    /* ******************* navbar ********************** */
+    #navbar-brand{    
+        
+    }
+
+    /* ************ headeer contnet ************ */
+
+    #header-content{
+        display: none;
+    }
+    #header-content-for-mob{
+        display: none;
+    }
+    #header-content-for-tab{
+
+     
+        padding: 21rem 0;
+        
+    
+    }
+
+    #header-content-for-tab p{
+
+        font-family: Ysabeau;
+        font-size: 2rem;
+        color: gainsboro;
+
+    }
+    #header-content-for-tab .btn{
+
+        padding: 1rem 2rem;
+            margin: 1rem auto;
+        
+        }
+        #header h1{
+            color: rgb(251, 248, 245);
+            font-weight: 400;
+            font-size: 3.6rem;
+        }
+/* *********************** 2400 ********************** */
+       
+/* ************ 24000 **************** */
+#content-24{
+    margin: 5rem;
+      
+}
+#content-24 h1{
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: Montserrat;
+    color: rgb(16, 15, 15);
+}
+#content-24 p{
+    margin-top: 1.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+#row-for-card{
+    margin: 5rem 0;
+}
+#row-for-card h5{
+    margin-bottom: 1rem;
+}
+#row-for-card p{
+    margin-top: 1rem;
+}
+
+/* ******************** works ******************* */
+#works-content{
+
+    padding: 3rem 0;
+   
+}
+#works{
+
+    margin: 1rem 0 4rem 0;
+
+}
+#works-content p{
+
+    font-family: Ysabeau;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    color: #fff;
+}
+
+#works-content h1{
+
+font-family: Montserrat;
+color: #fff;
+font-size: 3rem;
+
+}
+
+
+#works-img{
+
+    background-size:auto;
+}
+
+
+#logos .row{
+    padding: .5rem 0;
+}
+
+
+/* ************** new look ************** */
+
+#new-look-bottom{
+
+    margin: 4rem 0;
+
+}
+#new-look-bottom i{
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    color: rgb(24, 24, 255);
+}
+#new-look-bottom h5{
+    font-weight: 400;
+
+    
+}
+#new-look-bottom p{
+    margin-top: .8rem;
+    font-weight: 400;
+}
+#new-look-top{
+    margin-top: 5rem auto;
+
+}
+#new-look-top p{
+margin: 2rem 0 3rem 0;
+
+}
+
+/* ******************** watches ******************** */
+#parallax-content, #tons, #supereasy{
+
+   
+    padding: 10% 0;
+ 
+ }
+ #parallax-content h1, #tons h1, #supereasy h1{
+     font-family: Montserrat;
+     font-weight: 400;
+     font-size: 1.8rem;
+ }
+ #parallax-content p, #tons p, #supereasy p{
+ 
+     margin-top: 1rem;
+     font-weight: 400;
+     font-size: .8rem;
+     font-family: Montserrat;
+     word-spacing: .2rem;
+ }
+ #parallax-content .btn, #tons .btn, #supereasy .btn{
+     border: 2px solid blue;
+     color: blue;
+     margin-top: 1rem;
+ }
+ #parallax-content small, #tons small, #supereasy small{
+     font-weight: 500;
+     font-size: .9rem;
+ }
+
+#img-1,#img-2,#img-3{
+margin: 5rem 0 0 0 ;
+
+}
+
+#btn-l-super{
+
+    font-size: 2rem; 
+    margin-left: -1rem;
+    padding: 0 .6rem;
+    margin-top: 5rem;
+}
+#btn-r-super{
+    margin-right: -.6rem;
+     padding: 0 .6rem;
+     font-size: 2rem;
+     margin-top: 5rem; 
+}
+#btn-l-tons{
+    margin-left: -.6rem; 
+    padding: 0 .6rem;
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+#btn-r-tons{
+
+    font-size: 2rem; 
+    margin-left: 2rem; 
+    margin-top: 5rem;
+
+}
+#btn-l-parallax{
+
+    font-size: 2rem;
+
+}
+#btn-r-parallax{
+
+    font-size: 2rem; 
+    margin-left: 2rem;
+    margin-right: -1.5rem;
+
+}
+
+#watches{
+    margin-top: 6rem;
+}
+
+#row-1{
+    margin-bottom: 1.5rem;
+}
+#row-2{
+    margin-top:1.5rem;
+}
+#row-2{
+    margin-bottom: 1.5rem;
+}
+
+#row-3{
+    margin-top:1.5rem;
+}
+
+
+#blank{
+
+    border-right: 3px solid black;
+
+}
+
+footer{
+    border-bottom: 5px solid black;
+}
+
+    
+  }
+
+
+
+
+
+
+  /* (((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((MOB ))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) */
+
+   /* for mob  */
+
+   @media screen and (max-width:576px) {
+    
+    #logos-img, #works-img,#gallery-img,#awesome-img {
+
+        background-size: auto !important;
+        
+       
+    }
+    #gallery-img .container{
+
+        padding: 5rem 0;
+    
+    }
+    #awesome-img .container{
+
+        padding: 5rem 0;
+    
+    }
+
+
+    #top{
+
+    border-bottom: 5px solid black; 
+    border-left: 5px solid black;
+     border-top: 5px solid black; 
+     border-right: 5px solid black;
+      padding: 2.5rem;
+
+    }
+
+    /* ******** header content********** */
+
+#header-content, #header-content-for-tab{
+
+    display: none;
+
+}
+
+    #header-content-for-mob p{
+        font-weight: 500;
+        font-family: Ysabeau;
+        color: gainsboro;
+        font-size:1.5rem;
+        font-weight: 600;
+    }
+    #header-content-for-mob h1{
+        color: rgb(251, 248, 245);
+            font-weight: 400;
+            font-size: 3rem;
+    }
+    #header-content-for-mob .btn{
+
+        padding: 1rem 2.2rem;
+            margin: 1rem auto;
+        
+        }
+        
+        #header-content-for-mob{
+
+           
+            padding: 21rem 0;
+            
+        
+        }
+
+
+#logos-img{
+    padding: 10rem;
+
+}
+#logos #img-1-logos, #logos #img-2-logos{
+
+
+    margin-top: 3rem;
+}
+#logos #img-3-logos, #logos #img-4-logos{
+
+
+    margin-bottom: 2rem;
+}
+
+
+#logos .container img{
+    margin: .1rem;
+    
+}
+
+        /* ***************** 2400 ****************** */
+
+        /* ************ 24000 **************** */
+#content-24{
+    margin: 5rem;
+      
+}
+#content-24 h1{
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    font-family: Montserrat;
+    color: rgb(16, 15, 15);
+}
+#content-24 p{
+    margin-top: 1.5rem;
+    font-weight: 500;
+    font-size: .9rem;
+    margin-bottom: 3rem;
+}
+
+#row-for-card{
+    margin: 5rem 0;
+}
+#row-for-card h5{
+    margin-bottom: 1rem;
+}
+#row-for-card p{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+
+/* ******************** works ******************* */
+#works-content{
+
+    padding: 6rem 0;
+   
+}
+#works{
+
+    margin: 1rem 0 4rem 0;
+
+}
+#works-content p{
+
+    font-family: Ysabeau;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+#works-content h1{
+
+font-family: Montserrat;
+color: #fff;
+font-size: 2rem;
+
+}
+
+#works-img{
+
+    background-size:auto;
+}
+
+/* ***************** new look bottom ************************* */
+
+/* ************** new look ************** */
+
+#new-look-bottom{
+
+    margin: 4rem 0;
+
+}
+#new-look-bottom i{
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    color: rgb(24, 24, 255);
+}
+#new-look-bottom h5{
+    font-weight: 400;
+
+    
+}
+#new-look-bottom p{
+    margin: .8rem 0 2rem 0;
+    font-weight: 400;
+}
+#new-look-top{
+    margin-top: 5rem auto;
+
+}
+#new-look-top p{
+margin: 2rem 0 3rem 0;
+
+}
+
+/* ******************** watches ******************** */
+#parallax-content, #tons, #supereasy{
+
+   
+    padding: 10% 0;
+ 
+ }
+ #parallax-content h1, #tons h1, #supereasy h1{
+     font-family: Montserrat;
+     font-weight: 400;
+     font-size: 1.8rem;
+ }
+ #parallax-content p, #tons p, #supereasy p{
+ 
+     margin-top: 1rem;
+     font-weight: 400;
+     font-size: .8rem;
+     font-family: Montserrat;
+     word-spacing: .2rem;
+ }
+ #parallax-content .btn, #tons .btn, #supereasy .btn{
+     border: 2px solid blue;
+     color: blue;
+     margin-top: 1rem;
+     padding: .5rem 1.2rem;
+ }
+ #parallax-content small, #tons small, #supereasy small{
+     font-weight: 500;
+     font-size: .9rem;
+ }
+
+#img-1,#img-2,#img-3{
+margin: 5rem 0 0 0 ;
+
+}
+
+#watches{
+    margin-top: 6rem;
+}
+
+
+#btn-l-super{
+
+    font-size: 2rem; 
+    margin-left: -1rem;
+    padding: 0 .6rem;
+    margin-top: 5rem;
+}
+#btn-r-super{
+    margin-right: -1.4rem;
+     padding: 0 .6rem;
+     font-size: 2rem;
+     margin-top: 5rem; 
+}
+#btn-l-tons{
+    margin-left: -1.4rem; 
+    padding: 0 .6rem;
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+#btn-r-tons{
+
+    font-size: 2rem; 
+    margin-left: 2rem; 
+    margin-top: 5rem;
+
+}
+#btn-l-parallax{
+
+    font-size: 2rem;
+
+}
+#btn-r-parallax{
+
+    font-size: 2rem; 
+    margin-left: 2rem;
+    margin-right: -1.5rem;
+
+}
+
+
+
+
+#row-1{
+    margin-bottom: 1.5rem;
+}
+#row-2{
+    margin-top:1.5rem;
+}
+#row-2{
+    margin-bottom: 1.5rem;
+}
+
+#row-3{
+    margin-top:1.5rem;
+}
+
+#parallax-content,#tons,#supereasy{
+    padding: 1rem;
+}
+
+#tons h1{
+    margin-top: 2rem;
+}
+
+/* ***************** thoughts *********************** */
+#thoughts p{
+font-size: .9rem !important;
+    margin-top: 2rem;
+
+}
+#thoughts small{
+    font-size: .7rem;
+}
+
+/* ********************** conatct********************* */
+#contact #below-h6{
+
+    font-weight: 400;
+
+}
+#contact #upper-h6{
+
+    font-size: .9rem;
+
+}
+
+
+#navbar-content{
+    margin-right: 0rem !important;
+    padding-right: 0rem !important;
+}
+
+
+#thoughts p{
+
+margin-top: 3rem;
+
+}
+
+}
